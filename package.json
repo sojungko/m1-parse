@@ -1,0 +1,16 @@
+{
+  "name": "m1-parse",
+  "version": "1.0.0",
+  "description": "Parses M1 Trade Confirmation pdfs to csv",
+  "main": "index.js",
+  "scripts": {
+    "parse": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-writer": "^1.5.0",
+    "pdf-parse": "^1.1.1"
+  }
+}
